@@ -22,7 +22,7 @@ function addList(e) {
 
   if (input.value !== "") {
     newLi.textContent = input.value;
-    input.value - "";
+    input.value = "";
     notCompleted.appendChild(newLi);
     newLi.appendChild(checkBtn);
     newLi.appendChild(delBtn);
